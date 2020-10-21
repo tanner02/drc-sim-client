@@ -7,6 +7,15 @@ ext {
 	mainClassName = "com.rolandoislas.drcsimclient.ios.IOSLauncher"
 }
 
+robovm {
+iosSignIdentity = ""
+iosProvisioningProfile = ""
+iosSkipSigning = true
+stdoutFifo = ""
+stderrFifo = ""
+
+}
+
 launchIPhoneSimulator.dependsOn build
 launchIPadSimulator.dependsOn build
 launchIOSDevice.dependsOn build
