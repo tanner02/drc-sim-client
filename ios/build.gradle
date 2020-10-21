@@ -8,11 +8,12 @@ ext {
 }
 
 robovm {
-iosSignIdentity = ""
-iosProvisioningProfile = ""
-iosSkipSigning = true
-stdoutFifo = ""
-stderrFifo = ""
+	archs = "thumbv7:arm64"
+	iosSignIdentity = ""
+	iosProvisioningProfile = ""
+	iosSkipSigning = true
+	stdoutFifo = ""
+	stderrFifo = ""
 
 }
 
@@ -21,9 +22,6 @@ launchIPadSimulator.dependsOn build
 launchIOSDevice.dependsOn build
 createIPA.dependsOn build
 
-robovm {
-	archs = "thumbv7:arm64"
-}
 
 eclipse.project {
     name = appName + "-ios"
