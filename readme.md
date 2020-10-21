@@ -4,7 +4,7 @@ DRC Sim Client
 Release: [![Build Status](https://travis-ci.org/rolandoislas/drc-sim-client.svg?branch=master)](https://travis-ci.org/rolandoislas/drc-sim-client)
 Dev: [![Build Status](https://travis-ci.org/rolandoislas/drc-sim-client.svg?branch=develop)](https://travis-ci.org/rolandoislas/drc-sim-client)
 
-A desktop and mobile DRC Sim \(gamepad\) client.
+A desktop and mobile DRC Sim \(gamepad\) client. Updated to make it work for creating an IPA (iOS).
 
 [Video]
 
