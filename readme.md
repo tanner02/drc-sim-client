@@ -10,7 +10,7 @@ A desktop and mobile DRC Sim \(gamepad\) client. Updated to make it work for cre
 
 # Requirements
 
-The server backend, [DRC Sim Server], is required.It handles the pairing 
+The server backend, [DRC Sim Server], is required. It handles the pairing 
 and communication with the Wii U then creates a server for the client.
 
 # Releases
