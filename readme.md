@@ -17,7 +17,7 @@ and communication with the Wii U then creates a server for the client.
 
 - [Desktop] \(Windows/OS X/Linux/Java enabled Toaster\)
 - [Android]
-- iOS - It will need to be built from source.
+- [iOS]
 
 # Building
 
@@ -63,7 +63,8 @@ Output: `./ios/build/robovm/IOSLauncher.ipa`
 [drc-sim-keyboard]: https://github.com/justjake/drc-sim-keyboard
 [libgdx]: https://libgdx.badlogicgames.com
 [Desktop]: https://github.com/rolandoislas/drc-sim-client/releases
-[Android]: https://play.google.com/store/apps/details?id=com.rolandoislas.drcsimclient
+[Android]:https://play.google.com/store/apps/details?id=com.rolandoislas.drcsimclient
+[iOS]:https://github.com/tanner02/drc-sim-client/releases/tag/v2.0
 [DRC Sim Server]: https://github.com/rolandoislas/drc-sim
 [Video]: https://www.youtube.com/watch?v=659kirZkmxg
 [libGDX]: http://libgdx.badlogicgames.com/
